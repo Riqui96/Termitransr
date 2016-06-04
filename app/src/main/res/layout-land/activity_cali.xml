@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="destino"
+            type="com.example.equipo.termitransr.models.Destino"/>
+    </data>
+
+    <RelativeLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img_land"
+            android:layout_width="@dimen/widt_land"
+            android:layout_height="match_parent"
+            android:background="#333333"
+            android:scaleType="centerCrop"
+            app:imgUrl="@{destino.img}"
+            />
+
+        <TextView
+            android:id="@+id/Descr_land"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{destino.nombre}"
+            tools:text="Nombre Destino"
+            app:fontTtf='@{"aldap"}'
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/img_land"
+            android:layout_toEndOf="@+id/img_land" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_img"
+            android:text="@{destino.descripcion}"
+            tools:text="Descripcion del Destino"
+            app:fontTtf='@{"aldap"}'
+            android:id="@+id/textView2"
+            android:layout_below="@+id/Descr_land"
+            android:layout_toRightOf="@+id/img_land"
+            android:layout_marginTop="@dimen/space_land"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+
+    </RelativeLayout>
+</layout>

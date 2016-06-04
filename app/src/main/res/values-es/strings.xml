@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Termitransr</string>
+
+    <string name="destino_ini">Destino</string>
+    <string name="continuar">Continuar</string>
+    <string name="sele_emp">Seleccione la empresa</string>
+    <string name="Title_Ini">TERMITRANS</string>
+    <string name="name_for">Nombre:</string>
+    <string name="nit_for">Nit:</string>
+    <string name="mail_for">Email:</string>
+    <string name="date_for">Fecha De Reserva:</string>
+    <string name="reserver_for">Reservar</string>
+    <string name="add">Agregar</string>
+    <string name="about">Acerca</string>
+    <string name="help">Ayuda</string>
+    <string name="more">more</string>
+
+</resources>

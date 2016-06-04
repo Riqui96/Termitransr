@@ -1,0 +1,51 @@
+<resources>
+
+    <string name="app_name">Termitransr</string>
+    <string name="destino_ini">Destination</string>
+    <string name="continuar">Continue</string>
+    <string name="sele_emp">Select Company</string>
+    <string name="Title_Ini">TERMITRANS</string>
+    <string name="name_for">Name:</string>
+    <string name="nit_for">identification number:</string>
+    <string name="mail_for">Mail:</string>
+    <string name="date_for">reservation date:</string>
+    <string name="reserver_for">Reservation:</string>
+    <string name="add">Add</string>
+    <string name="about">About</string>
+    <string name="help">help</string>
+    <string name="more">more</string>
+    <string name="codigo_qr">Codigo QR</string>
+    <string name="close_nav">cerrar menu lateral</string>
+    <string name="open_nav">Menu Lateral</string>
+    <string name="Name_login">Nombre De Usuario</string>
+    <string name="password_login">Contraseña</string>
+    <string name="registro_login">Registrar</string>
+    <string name="Enter_login">Entrar</string>
+    <string name="profile">perfil</string>
+    <string name="closed_ses">Cerrar Sesion</string>
+    <string name="closed">cerrar</string>
+    <string name="codigo_reserve">CODIGO DE RESERVA</string>
+
+    <string-array name="horary">
+
+        <item>       </item>
+        <item>7:00 am</item>
+        <item>7:15 am</item>
+        <item>7:30 am</item>
+        <item>8:00 am</item>
+        <item>8:15 am</item>
+        <item>8:45 am</item>
+        <item>9:00 am</item>
+        <item>10:00 am</item>
+        <item>2:10 pm</item>
+        <item>2:40 pm</item>
+        <item>3:00 pm</item>
+        <item>3:30 am</item>
+        <item>4:30 am</item>
+        <item>5:00 am</item>
+
+    </string-array>
+
+</resources>
+
+

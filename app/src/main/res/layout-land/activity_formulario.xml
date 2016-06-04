@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data>
+        <variable
+            name="destino"
+            type="com.example.equipo.termitransr.models.Destino"/>
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_for"
+            android:inputType="text"
+
+            />
+
+        <EditText
+            android:id="@+id/nit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nit_for"
+            android:inputType="number"
+
+            />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mail_for"
+            android:inputType="textEmailAddress"
+
+            />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/date_for"
+            android:inputType="date"
+
+            />
+
+        <Spinner
+            android:id="@+id/spiner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/espacio_emp"
+            android:entries="@array/horary"
+            />
+
+
+        <Button
+            android:id="@+id/reserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reserver_for"
+            android:layout_marginTop="15dp"
+            />
+
+    </LinearLayout>
+</layout>
